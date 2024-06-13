@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="sign-in" class="container bg-white p-5 w-50 ">
+        <div class="row text-center">
+            <div class="sign-in">
+                <h1>Smart Login System</h1>
+
+                <input type="email" id="signInEmailInput" placeholder="Enter your Email" class="form-control mt-4">
+                <div class="alert alert-danger p-1 mt-2 d-none"> Email must be valid </div>
+
+                <input type="password" id="signInPasswordInput" placeholder="Enter your Password" class="form-control mt-4">
+                <div class="alert alert-danger p-1 mt-2 d-none"> Password must be at least 8 characters </div>
+
+
+                <p id="alertmessage1" class="alert-message mt-3"></p>
+
+                <button id="btn1" class="btn btn-outline-danger mt-3 w-100">Sign in</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

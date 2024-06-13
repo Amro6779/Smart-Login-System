@@ -1,0 +1,61 @@
+
+body{
+    background-color: rgb(225, 40, 114);
+}
+
+.main-nav .navbar{
+    background-color: white ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 20px white;
+}
+
+.main-nav .navbar a{
+    text-decoration: none;
+}
+
+#Welcome-rectangle{
+    height: 50px;
+    width: 40%;
+    box-shadow: 0 0 20px white;
+    position: absolute;
+    top: 45%;
+    left: 31.5%;
+    border-radius: 7px;
+    color:rgb(225, 40, 114) ;
+}
+
+.container{
+    box-shadow: 0 0 20px white;
+    position: absolute;
+    top: 22%;
+    left: 25%;
+    border-radius: 7px;
+}
+
+h1{
+    color:rgb(225, 40, 114) ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#alertmessage {
+    color: rgb(225, 40, 114);
+}
+
+#alertmessage1 {
+    color: rgb(225, 40, 114);
+}
+
+.alert{
+    color: rgb(225, 40, 114);
+}
+
